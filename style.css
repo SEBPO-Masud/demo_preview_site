@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.petco-nav-bg {
+    background-color: #001952;
+}
+
+.navbar-toggler span{
+    color: #fff;
+    filter: invert(55248%) sepia(13%) saturate(307%) hue-rotate(120deg) brightness(100%) contrast(100%);
+}
+
+.navbar-light .navbar-toggler{
+    color: #fff;
+    border: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar-brand :nth-child(2) {
+    position: relative;
+    top: 13px;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+
+/* Preview Section */
+.preview-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.preview-container h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.style-guideline{
+    margin-top: 40px;
+}
+
+.preview-section{
+    margin-top: 40px;
+}
+
+.preview-section__title{
+    text-align: center;
+}
+
+@media screen and ((min-width: 992px)) {
+    .navbar-expand-lg .navbar-nav {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-brand :nth-child(2) {
+        display: none;
+    }
+}
