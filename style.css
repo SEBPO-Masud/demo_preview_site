@@ -8,12 +8,12 @@ body {
     background-color: #001952;
 }
 
-.navbar-toggler span{
+.navbar-toggler span {
     color: #fff;
     filter: invert(55248%) sepia(13%) saturate(307%) hue-rotate(120deg) brightness(100%) contrast(100%);
 }
 
-.navbar-light .navbar-toggler{
+.navbar-light .navbar-toggler {
     color: #fff;
     border: 0;
 }
@@ -35,27 +35,72 @@ body {
 
 
 /* Preview Section */
-.preview-container{
+.petco-wrapper {
     max-width: 1440px;
     margin: 0 auto;
+    background-color: rgba(197, 194, 190, 0.137);
 }
 
-.preview-container h3{
+.preview-container {
+    padding: 0 5%;
+    padding-bottom: 40px;
+}
+
+.preview-container h2 {
     text-align: center;
     padding-bottom: 30px;
+    font-size: 25px;
 }
 
-.style-guideline{
+.style-guideline {
+    padding-top: 40px;
+}
+
+.preview-section {
     margin-top: 40px;
 }
 
-.preview-section{
-    margin-top: 40px;
-}
-
-.preview-section__title{
+.preview-section__title {
     text-align: center;
+    padding: 40px 0;
 }
+
+.hero-pov-type{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-pov-type a{
+    width: 211px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #001952;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    font-family: "PetcoCircular-Bold", arial !important;
+}
+
+/* ------ Category ------ */
+.category-title, .checklist-title{
+    padding-top: 40px;
+}
+/* ------ Category ------ */
+
+/* Checklist */
+.checklist-container{
+    padding: 0;
+}
+
 
 @media screen and ((min-width: 992px)) {
     .navbar-expand-lg .navbar-nav {
