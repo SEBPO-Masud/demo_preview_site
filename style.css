@@ -4,6 +4,17 @@ body {
     box-sizing: border-box;
 }
 
+/* Common CSS */
+.petco-wrapper p{
+    margin: 0;
+}
+.section-gap{
+    margin: 40px 0;
+}
+/* End Common CSS */
+
+
+
 .petco-nav-bg {
     background-color: #001952;
 }
@@ -34,11 +45,34 @@ body {
 }
 
 
+/* ---------------------- */
+/* ----- SOP Start ----- */
+.sop-title{
+    color: #001952 !important;
+    font-size: 45px !important;
+}
+.sop-headline{
+    color: #001952 !important;
+    font-size: 25px !important;
+    padding-bottom: 15px;
+}
+.sop-sub-title{
+    color: #001952 !important;
+    font-size: 20px !important;
+}
+.sop-sub-headline{
+    color: #001952 !important;
+    font-size: 15px !important;
+}
+/* ----- SOP END ----- */
+/* ---------------------*/
+
+
 /* Preview Section */
 .petco-wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgba(197, 194, 190, 0.137);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .preview-container {
@@ -98,7 +132,7 @@ body {
 
 /* Checklist */
 .checklist-container{
-    padding: 0;
+    /* padding: 0; */
 }
 
 
