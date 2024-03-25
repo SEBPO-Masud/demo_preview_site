@@ -86,6 +86,10 @@ body {
     font-size: 25px;
 }
 
+.petco-wrapper img{
+    max-width: 100%;
+}
+
 .style-guideline {
     padding-top: 40px;
 }
