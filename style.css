@@ -11,12 +11,22 @@ body {
 .section-gap{
     margin: 40px 0;
 }
+
+@media screen and (max-width:1439px) {
+    .petco-wrapper{
+        margin: 0 2% !important;
+    }
+}
 /* End Common CSS */
 
 
 
 .petco-nav-bg {
     background-color: #001952;
+}
+
+.navbar-expand-lg .navbar-nav{
+    justify-content: end !important;
 }
 
 .navbar-toggler span {
@@ -63,6 +73,12 @@ body {
 .sop-sub-headline{
     color: #001952 !important;
     font-size: 15px !important;
+}
+
+@media screen and (max-width:1024px) {
+    .sop-title{
+        font-size: 30px !important;
+    }
 }
 /* ----- SOP END ----- */
 /* ---------------------*/
@@ -134,10 +150,24 @@ body {
 }
 /* ------ Category ------ */
 
-/* Checklist */
-.checklist-container{
-    /* padding: 0; */
+/* Compopnent */
+td img{
+    max-width: 1000px !important;
+    height: 100px;
 }
+
+@media screen and (max-width:680px) {
+    td img{
+        max-width: 300px !important;
+    }
+}
+
+@media screen and (max-width:680px) {
+    td img{
+        max-width: 150px !important;
+    }
+}
+/* Compopnent */
 
 
 @media screen and ((min-width: 992px)) {
