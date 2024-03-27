@@ -5,18 +5,20 @@ body {
 }
 
 /* Common CSS */
-.petco-wrapper p{
+.petco-wrapper p {
     margin: 0;
 }
-.section-gap{
+
+.section-gap {
     margin: 40px 0;
 }
 
 @media screen and (max-width:1439px) {
-    .petco-wrapper{
+    .petco-wrapper {
         margin: 0 2% !important;
     }
 }
+
 /* End Common CSS */
 
 
@@ -25,7 +27,7 @@ body {
     background-color: #001952;
 }
 
-.navbar-expand-lg .navbar-nav{
+.navbar-expand-lg .navbar-nav {
     justify-content: end !important;
 }
 
@@ -57,29 +59,33 @@ body {
 
 /* ---------------------- */
 /* ----- SOP Start ----- */
-.sop-title{
+.sop-title {
     color: #001952 !important;
     font-size: 45px !important;
 }
-.sop-headline{
+
+.sop-headline {
     color: #001952 !important;
     font-size: 25px !important;
     padding-bottom: 15px;
 }
-.sop-sub-title{
+
+.sop-sub-title {
     color: #001952 !important;
     font-size: 20px !important;
 }
-.sop-sub-headline{
+
+.sop-sub-headline {
     color: #001952 !important;
     font-size: 15px !important;
 }
 
 @media screen and (max-width:1024px) {
-    .sop-title{
+    .sop-title {
         font-size: 30px !important;
     }
 }
+
 /* ----- SOP END ----- */
 /* ---------------------*/
 
@@ -102,7 +108,7 @@ body {
     font-size: 25px;
 }
 
-.petco-wrapper img{
+.petco-wrapper img {
     max-width: 100%;
 }
 
@@ -119,7 +125,7 @@ body {
     padding: 40px 0;
 }
 
-.hero-pov-type{
+.hero-pov-type {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -128,7 +134,7 @@ body {
     align-items: center;
 }
 
-.hero-pov-type a{
+.hero-pov-type a {
     width: 211px;
     height: 56px;
     display: flex;
@@ -145,31 +151,44 @@ body {
 }
 
 /* ------ Category ------ */
-.category-title, .checklist-title{
+.category-title,
+.checklist-title {
     padding-top: 40px;
 }
+
 /* ------ Category ------ */
 
 /* Compopnent */
-td img{
-    max-width: 1000px !important;
+td img {
+    max-width: 550px !important;
     height: 100px;
 }
 
+/* .component-tr {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.component-tr th, 
+.component-tr td {
+    vertical-align: middle;
+}
+
 @media screen and (max-width:680px) {
-    td img{
+    td img {
         max-width: 300px !important;
     }
 }
 
 @media screen and (max-width:680px) {
-    td img{
+    td img {
         max-width: 150px !important;
     }
 }
+
 /* Compopnent */
-
-
 @media screen and ((min-width: 992px)) {
     .navbar-expand-lg .navbar-nav {
         justify-content: center;
@@ -183,3 +202,9 @@ td img{
         display: none;
     }
 }
+
+/* Footer */
+footer{
+    text-align: left;
+}
+/* Footer */
