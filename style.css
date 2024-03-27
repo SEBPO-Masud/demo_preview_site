@@ -207,4 +207,10 @@ td img {
 footer{
     text-align: left;
 }
+
+@media screen and (max-width:1024px) {
+    footer{
+        text-align: center;
+    }
+}
 /* Footer */
